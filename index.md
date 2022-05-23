@@ -1,5 +1,6 @@
-Here you can say lots of fun things about your site.
+Welcome to my Github Blog!  
 
-Maybe say a some things about yourself.
+This summer I hope to practice using Github to blog and as a code repository.  
 
-Or maybe what you plan to blog about.
+Thank You for visiting!
+Dane
