@@ -1,1 +1,4 @@
-
+----------------------------------
+title: "Programming Background"
+author: "Dane Korver"
+----------------------------------
