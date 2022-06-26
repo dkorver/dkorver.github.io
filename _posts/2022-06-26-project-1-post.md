@@ -5,4 +5,7 @@ For this project, I decided to use the Financial data APIs.  Originally, I was t
 Hopefully you enjoy my report, Interacting with APIs using the financial data posted here:
 https://dkorver.github.io/food/
 
+Here is the URL to the Github repo:
+https://github.com/dkorver/food
+
 
