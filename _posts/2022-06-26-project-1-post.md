@@ -6,6 +6,6 @@ Hopefully you enjoy my report, Interacting with APIs using the financial data po
 https://dkorver.github.io/food/  
   
 Here is the URL to the Github repo:  
-https://github.com/dkorver/food. 
+https://github.com/dkorver/food
 
 
