@@ -1,0 +1,32 @@
+---
+title: "Coolest thing about using R"
+author: "Dane Korver"
+date: '2022-06-30'
+output: 
+  github_document:
+  toc: false
+  html_preview: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I think the coolest thing about using R has been using it to call an API and writing functions with it.  I've also enjoyed creating graphs using it, too.  Here is a graph I create that displays my Wordle guess distribution.  
+
+```{r , echo=FALSE, warning=FALSE, message=FALSE}
+
+library(readxl)
+library(tidyverse)
+wordle <- read_excel("/Users/danekorver/Documents/danes_wordle.xlsx")
+
+ggplot(data = wordle) + geom_bar(mapping = aes(x = Number_of_Guesses))+
+xlab("Number of Guesses")+ 
+ylab("Count")+
+ggtitle("Guess Distribution")+
+scale_x_discrete(limits=c("1","2","3","4","5","6",">6"))+
+scale_y_continuous(limits = c(0,60), breaks = seq(0,60,5))+
+theme(plot.title=element_text(hjust=0.5))
+
+```
+
